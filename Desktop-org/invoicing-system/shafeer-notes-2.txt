@@ -1,0 +1,6 @@
+each project have individual dashboard
+super admin - platform - custom user (owner) --> ERP MS   A r
+      * they create company(CRUD)                         B k
+      
+      
+ 

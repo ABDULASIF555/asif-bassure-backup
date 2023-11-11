@@ -1,0 +1,17 @@
+## YAML Template.
+---
+
+server:
+  port: 8084
+    
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/testdb
+    username: asif
+    password: passwordasif
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+

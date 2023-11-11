@@ -1,0 +1,18 @@
+server:
+    port: 9080
+    
+    
+spring:
+  mvc:
+    view:
+        prefix: /WEB-INF/pages/
+        suffix: .jsp
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://bassure.in/abdulasif_b8_db
+    username: abdulasif
+    password: sibASdul@555
+    hikari:
+      maximum-pool-size: 2
+  main:
+    banner-mode: off    

@@ -1,0 +1,5 @@
+Drafted Invoice - invoice is created and not sended to the client yet.
+
+step : 1  -> Choose the required type of invoice and the types are single invoice , recurring invoice .
+
+step : 2  -> Fill the details of invoice.

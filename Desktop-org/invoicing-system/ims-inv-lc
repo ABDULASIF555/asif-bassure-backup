@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" modified="2023-07-31T07:25:39.949Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="YJcSBu5FXOptgSCowYBl" version="21.6.6" type="device">
+  <diagram name="Page-1" id="R9lsMs65_nH8m3mJYcaf">
+    <mxGraphModel dx="950" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ORa0lTkj1QIwRH2yqAdL-1" value="SENT TO THE CUSTOMRER" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ORa0lTkj1QIwRH2yqAdL-2" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="470" y="609.5" as="sourcePoint" />
+            <mxPoint x="550" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ORa0lTkj1QIwRH2yqAdL-3" value="INVOICE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ORa0lTkj1QIwRH2yqAdL-4" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="670" y="609.5" as="sourcePoint" />
+            <mxPoint x="750" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ORa0lTkj1QIwRH2yqAdL-5" value="INITIALLY UNPAID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ORa0lTkj1QIwRH2yqAdL-6" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ORa0lTkj1QIwRH2yqAdL-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="860" y="530" as="sourcePoint" />
+            <mxPoint x="1000" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="810" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ORa0lTkj1QIwRH2yqAdL-7" value="PAID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ORa0lTkj1QIwRH2yqAdL-8" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="ORa0lTkj1QIwRH2yqAdL-9">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="810" y="640" as="sourcePoint" />
+            <mxPoint x="960" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="810" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ORa0lTkj1QIwRH2yqAdL-9" value="PARTIALLY PAID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ORa0lTkj1QIwRH2yqAdL-10" value="DRAFTED INVOICE BY THE SELLER" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ORa0lTkj1QIwRH2yqAdL-11" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="270" y="609.5" as="sourcePoint" />
+            <mxPoint x="350" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ORa0lTkj1QIwRH2yqAdL-12" value="OVER DUE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ORa0lTkj1QIwRH2yqAdL-13" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="ORa0lTkj1QIwRH2yqAdL-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="870" y="609.5" as="sourcePoint" />
+            <mxPoint x="950" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ORa0lTkj1QIwRH2yqAdL-14" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ORa0lTkj1QIwRH2yqAdL-12" target="ORa0lTkj1QIwRH2yqAdL-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1020" y="540" as="sourcePoint" />
+            <mxPoint x="1100" y="540.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ORa0lTkj1QIwRH2yqAdL-15" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ORa0lTkj1QIwRH2yqAdL-9" target="ORa0lTkj1QIwRH2yqAdL-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="960" y="650" as="sourcePoint" />
+            <mxPoint x="960" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

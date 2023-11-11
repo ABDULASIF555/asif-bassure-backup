@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: invoice-application
+  datasource:
+    url: jdbc:postgresql://bassure.in:5432/invoice_db
+    username: invoice_user
+    password: invoice-pwd
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties: 
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        show_sql: true
+        format_sql: true
+invoice:
+  statuscode:
+    success: 600
+  message:
+    success: Success

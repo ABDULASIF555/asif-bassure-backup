@@ -1,0 +1,17 @@
+state is first initialzed in constructor only
+
+when we modify the state use setState only not directly . if we directly use not rerender happens but we use setState means rerender happens
+
+seState is asynchronous
+
+only the state
+
+the arrow function syntax is a simplest way to pass parameters from child component to parent component
+
+adding if else within the jsx is not valid . if else contaons jsx is valid 
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+ser
+war and jar
+
+jwt has 3 parts- header,payload,signature
+
+Please note that there can be multiple application contexts for a single application.
+
+what is factory bean 
+
+what is bean factory, entity factory , entity manager ,
+
+what is that meaning of (In general, Spring Boot provides the SpringApplication.run method to bootstrap Spring applications.) bootstrap in this line.
+
+what is classpath and buildpath		

@@ -1,0 +1,15 @@
+server:
+    port: 8081
+
+    
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://bassure.in/abdulasif_b8_db
+    username: abdulasif
+    password: sibASdul@555
+    hikari:
+      maximum-pool-size: 2
+  main:
+    banner-mode: off 
+    

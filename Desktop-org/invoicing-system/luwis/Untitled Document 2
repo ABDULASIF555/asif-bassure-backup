@@ -1,0 +1,122 @@
+[ 	
+	{
+	estimation_id:integer,
+	client_id:integer,
+	estimation_type:varchar,
+	estimate_records:[
+		{          
+		estimate_record_id:integer,      
+		estimate_creation_date:timestamp,
+		estimated_delivery_date:timestamp,
+		estimate_contents:[
+			{                                                          
+			estimate_content_id:integer,
+			estimate_content:varchar,
+			quantity:integer,
+			rate:float,
+			unit:varchar,
+			amount:float
+			}
+		]
+		pre_discount_and_pre_tax_amount:float,
+		discount_percentage:float,
+		gst_percentage:float,
+		final_amount:float,
+		estimation_status:varchar,
+		reason:varchar,
+		payment_due_terms:integer
+		}
+	] 
+	                                                                
+	}
+]
+
+
+
+
+{                                                                                   
+	header:{
+		code:600
+		},
+	body:{ 
+		value:  [
+			{
+				estimation_id:integer,
+				client_id:integer,
+				estimation_type:varchar,
+				estimate_records:[
+					{          
+					estimate_record_id:integer,      
+					estimate_creation_date:timestamp,
+					estimated_delivery_date:timestamp,
+					estimate_contents:[
+						{                                                          
+						estimate_content_id:integer,
+						estimate_content:varchar,
+						quantity:integer,
+						rate:float,
+						unit:varchar,
+						amount:float
+						}
+					]
+					pre_discount_and_pre_tax_amount:float,
+					discount_percentage:float,
+					gst_percentage:float,
+					final_amount:float,
+					estimation_status:varchar,
+					reason:varchar,
+					payment_due_terms:integer
+					}
+				] 			                                        
+			}
+		    	]                                                                                 
+		}                                                                                   
+}
+
+
+
+
+
+
+{                                                                                   
+	header:{
+		code:600
+		},
+	body:{ 
+		value:                                                                      
+			{
+				estimation_id:integer,
+				client_id:integer,
+				estimation_type:varchar,
+				estimate_records:[
+					{          
+					estimate_record_id:integer,      
+					estimate_creation_date:timestamp,
+					estimated_delivery_date:timestamp,
+					estimate_contents:[
+						{                                                          
+						estimate_content_id:integer,
+						estimate_content:varchar,
+						quantity:integer,
+						rate:float,
+						unit:varchar,
+						amount:float
+						}
+					]
+					pre_discount_and_pre_tax_amount:float,
+					discount_percentage:float,
+					gst_percentage:float,
+					final_amount:float,
+					estimation_status:varchar,
+					reason:varchar,
+					payment_due_terms:integer
+					}
+				] 			                                        
+			}                                                                                 
+		}                                                                                   
+}
+
+
+
+
+                                                                                           

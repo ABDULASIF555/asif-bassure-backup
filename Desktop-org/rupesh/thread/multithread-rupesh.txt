@@ -1,0 +1,25 @@
+for 2 threads,in 1ms
+1mb data to hd to ram it takes 10 cycle
+
+thread is virtual processor
+
+round robin algorithm - T1 yields to T2 , T2 yields to T3, T3 yields to T1 .
+
+threads will also have priority.
+1is least pri , 10 is max prio
+5 is normal prio
+
+constant is static,final in java
+
+Thread class from lang package .
+
+child thread will have same priority from parent thread
+
+windows os controlling time slicing
+
+a thread will yield only for equal priority thread.
+a thread will not yield for lesser priority thread.
+a thread will not yield for higher priority thread.
+
+
+pre imptive scheduling 

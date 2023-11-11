@@ -1,0 +1,2 @@
+npm uni react-router-dom  => For uninstall the react router dom
+npm i react-router-dom    => For install the react router dom

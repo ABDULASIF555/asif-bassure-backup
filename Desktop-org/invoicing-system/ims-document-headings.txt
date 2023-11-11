@@ -1,0 +1,14 @@
+        Basic Bussiness Domain about project - Introduction  
+        Types of invoice 
+        Template of invoice
+        Mandatory fields 
+Sales invoice
+purchase invoice
+Content of invoice
+Life cycle of invoice 
+Scope in,out 
+Key feautures
+Target Audiences
+Requirements
+Payment
+Entities

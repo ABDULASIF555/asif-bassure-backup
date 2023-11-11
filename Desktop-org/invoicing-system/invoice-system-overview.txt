@@ -1,0 +1,6 @@
+steps:-
+tenant data (or) company data
+invoice layout
+create invoice
+online payments
+

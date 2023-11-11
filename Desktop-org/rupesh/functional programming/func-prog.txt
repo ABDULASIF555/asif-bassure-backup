@@ -1,0 +1,12 @@
+
+
+amigo's coding  -  Functional Programming in java
+*************************************************
+
+to see:
+*******
+difference between imperative programming and declarative programming 
+
+combinator design pattern - for validation 
+
+proper of functional programming 

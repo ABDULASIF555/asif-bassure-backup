@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" modified="2023-08-01T08:56:03.355Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="cGfcBT9qdwtjvCa8mR0X" version="21.6.6" type="device">
+  <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
+    <mxGraphModel dx="950" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yWo7mZ8rd3vVwsQqe99x-1" value="EXPENSE" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yWo7mZ8rd3vVwsQqe99x-2" value="CATEGORY" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yWo7mZ8rd3vVwsQqe99x-3" value="INVOICE" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yWo7mZ8rd3vVwsQqe99x-4" value="RETAINER INVOICE" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yWo7mZ8rd3vVwsQqe99x-5" value="RECURRING INVOICE" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yWo7mZ8rd3vVwsQqe99x-6" value="CUSTOMER" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yWo7mZ8rd3vVwsQqe99x-7" value="PURCHASE ORDER" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="390" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yWo7mZ8rd3vVwsQqe99x-8" value="SALES MEMBER" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="390" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yWo7mZ8rd3vVwsQqe99x-9" value="ITEM" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="390" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yWo7mZ8rd3vVwsQqe99x-10" value="ATTACHED FILES IN THE INVOICE" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="510" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yWo7mZ8rd3vVwsQqe99x-11" value="PAYMENT" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="510" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yWo7mZ8rd3vVwsQqe99x-12" value="QUOTE" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="510" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yWo7mZ8rd3vVwsQqe99x-13" value="DELIVERY CHALLAN" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="630" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yWo7mZ8rd3vVwsQqe99x-14" value="CHALLAN TYPE" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="630" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yWo7mZ8rd3vVwsQqe99x-15" value="CREDIT NOTE" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="630" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yWo7mZ8rd3vVwsQqe99x-16" value="DEBIT NOTE" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="750" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yWo7mZ8rd3vVwsQqe99x-17" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="750" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

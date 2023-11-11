@@ -1,0 +1,7 @@
+maintain only what are all negotiated
+
+give edit option to recurring invoice
+
+no need of estimation or invoice type directly we achieve api call for inv
+
+in react  

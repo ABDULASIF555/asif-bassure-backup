@@ -1,0 +1,59 @@
+"invoiceId": 1,
+"clientId": {
+    "clientId": 1,
+    "tenant": {
+        "tenantId": 1,
+        "tenantName": "Bassure",
+        "mobileNum": "9940302955",
+        "gstIn": "29GGGGG1314R9Z6   
+        "email": "bassure@gmail.com",
+        "status": "ACTIVE",
+        "clients": [
+                    1
+                ]
+     },
+     "clientName": "Assure",
+     "mobileNum": "9840302955",
+     "gstIn": "39AAAAA1314R9Z6",
+     "email": "assure@gmail.com",
+     "status": "ACTIVE"
+},
+"invoiceType": "SALES",
+"invoiceCreatedAt": "2023-09-06",
+"invoiceDueDate": "2023-09-15",
+"recurring": false,
+"recurrenceId": null,
+"totalAmount": 1569.24,
+"reccurenceStartedAt": null,
+"reccurenceEndedAt": null,
+"invoiceContent": [
+    {
+        "invoiceContentId": 1,
+        "invoice": 1,
+        "resource": {
+            "resourceId": 1,
+            "resourceCategory": "SERVICE",
+            "resourceName": "XYZ",
+            "unit": "Nos",
+            "gstPercentage": 12.5
+        },
+        "quantityOrHours": 3,
+        "rate": 15.00,
+        "discountPercentage": 12.0
+    },
+    {
+        "invoiceContentId": 2,
+        "invoice": 1,
+        "resource": {
+            "resourceId": 2,
+            "resourceCategory": "SERVICE",
+            "resourceName": "XYZ",
+            "unit": "Nos",
+            "gstPercentage": 12.5
+         },
+         "quantityOrHours": 30,
+         "rate": 25.00,
+         "discountPercentage": 15.0
+    }
+ ],
+"invoiceStatus": "ACTIVE"

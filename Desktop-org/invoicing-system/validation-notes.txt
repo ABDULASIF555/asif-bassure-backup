@@ -1,0 +1,8 @@
+gst validation:
+
+        It should be 15 characters long.
+	The first 2 characters should be a number.
+	The next 10 characters should be the PAN number of the taxpayer.
+	The 13th character (entity code) should be a number from 1-9 or an alphabet.
+	The 14th character should be Z.
+	The 15th character should be an alphabet or a number.

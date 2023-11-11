@@ -1,0 +1,3 @@
+if delivery challan is created once or multiple based on delivered goods as per purchase order?
+why expenses come under billable or non billable?
+if due date is crossed then what will happen we send debit	 note or send another overdue invoice to the customer?

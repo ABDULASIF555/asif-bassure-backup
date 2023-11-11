@@ -1,0 +1,181 @@
+[ 	
+	{
+	estimation_id:integer,
+	client_id:integer,
+	estimation_type:varchar,
+	estimate_records:[
+		{          
+		estimate_record_id:integer,      
+		estimate_creation_date:timestamp,
+		estimated_delivery_date:timestamp,
+		estimate_contents:[
+			{                                                          
+			estimate_content_id:integer,
+			estimate_content:varchar,
+			quantity:integer,
+			rate:float,
+			unit:varchar,
+			amount:float
+			}
+		]
+		pre_discount_and_pre_tax_amount:float,
+		discount_percentage:float,
+		gst_percentage:float,
+		final_amount:float,
+		estimation_status:varchar,
+		reason:varchar,
+		payment_due_terms:integer
+		}
+	] 
+	                                                                
+	}
+]
+
+
+
+[ 	
+	{
+	estimation_id:integer,
+	client_details:{
+			client_id:integer
+	 	  	client_name:varchar
+	 	  },
+	estimation_type:varchar,
+	estimate_records:[
+		{          
+		estimate_record_id:integer,      
+		estimate_creation_date:timestamp,
+		estimated_delivery_date:timestamp,
+		estimate_contents:[
+			{                                                          
+			estimate_content_id:integer,
+			estimate_content:varchar,
+			quantity:integer,
+			rate:float,
+			unit:varchar,
+			amount:float
+			}
+		]
+		pre_discount_and_pre_tax_amount:float,
+		discount_percentage:float,
+		gst_percentage:float,
+		final_amount:float,
+		estimation_status:varchar,
+		reason:varchar,
+		payment_due_terms:integer
+		}
+	] 
+	                                                                
+	}
+]
+
+
+
+/estimates/{tenant_id}                            GET              view all estimates for tenant
+{                                                                                   
+	header:{
+		code:600
+		},
+	body:{ 
+		value:  [
+			{
+				estimation_id:integer,
+				client_id:integer,
+				estimation_type:varchar,
+				estimate_records:[
+					{          
+					estimate_record_id:integer,      
+					estimate_creation_date:timestamp,
+					estimated_delivery_date:timestamp,
+					estimate_contents:[
+						{                                                          
+						estimate_content_id:integer,
+						estimate_content:varchar,
+						quantity:integer,
+						rate:float,
+						unit:varchar,
+						amount:float
+						}
+					]
+					pre_discount_and_pre_tax_amount:float,
+					discount_percentage:float,
+					gst_percentage:float,
+					final_amount:float,
+					estimation_status:varchar,
+					reason:varchar,
+					payment_due_terms:integer
+					}
+				] 			                                        
+			}
+		    	]                                                                                 
+		}                                                                                   
+}
+
+
+
+
+
+/estimates/{tenant_id}/{client_id}                GET              view all estimates of particular client for particular tenant
+{                                                                                   
+	header:{
+		code:600
+		},
+	body:{ 
+		value:                                                                      
+			{
+				estimation_id:integer,
+				client_id:integer,
+				estimation_type:varchar,
+				estimate_records:[
+					{          
+					estimate_record_id:integer,      
+					estimate_creation_date:timestamp,
+					estimated_delivery_date:timestamp,
+					estimate_contents:[
+						{                                                          
+						estimate_content_id:integer,
+						estimate_content:varchar,
+						quantity:integer,
+						rate:float,
+						unit:varchar,
+						amount:float
+						}
+					]
+					pre_discount_and_pre_tax_amount:float,
+					discount_percentage:float,
+					gst_percentage:float,
+					final_amount:float,
+					estimation_status:varchar,
+					reason:varchar,
+					payment_due_terms:integer
+					}
+				] 			                                        
+			}                                                                                 
+		}                                                                                   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/estimates/viewallestimates/{tenant_id}             GET              view all estimates for tenant
+/estimates/viewallestimates/{tenant_id}/{client_id} GET              view all estimates of particular client for particular tenant
+/estimates/viewestimate/{estimate_id}               GET              view particular estimate of particular client for particular tenant
+/estimates/createestimate/{client_id}               POST             create new estimate for particular client
+/estimates/negotiateestimate/{estimate_id}          POST	     create new negotiated estimate	
+/estimates/updateestimate/{estimate_id}             PUT              update particular estimate
+/estimates/delete/{estimate_id}                DELETE           delete particular estimate
+
+
+
+
+
+
+                                                                                           

@@ -1,0 +1,53 @@
+
+
+first thing to create project abstract for atleast 3 pages in starting stage in English not technical.Then go through oodo platform.
+
+project abstract - it explains functional requirement in english.
+
+it should contains very rich business domain knowledge
+
+ims,ams,sms,inms - these kind of prod soluns are ERP solns.
+
+if tcs need any 
+
+oracle , ibm provides erp soln
+
+
+We must do this in our project :
+******************************
+-> performence wise we must overcome our erp solns than others solns
+-> we offered in two diff models saas based multi tenant (gmail,teams, razorpay) , saas based for individual (i.e) single tenant:we ran same softawre in seperate server for that customer
+
+After project reuirements : 
+*************************
+data modeling
+functional requirement capturing
+
+
+
+
+ragani session:
+**************
+company on boarding 
+product on boarding
+
+
+to see future for deployment:
+****************************
+jenkins
+docker
+sonarqube
+
+
+other invoice apps for reference: 
+*******************************
+freshbooks
+invoice2go
+wave invoicing
+spreadsheet and word document
+invoiceera
+hiveage
+invoicely
+harvest
+pen and paper
+QBO

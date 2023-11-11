@@ -1,0 +1,4 @@
+typography is basically deals with styles and appearences of text of website
+typography levels are there 
+
+to learmaterialui with ts is going to play like js 

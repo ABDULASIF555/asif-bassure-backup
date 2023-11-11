@@ -1,0 +1,20 @@
+## YAML Template.
+---
+
+server:
+  port: 8085
+    
+spring:
+  datasource:
+    url: jdbc:postgresql://bassure.in/invoice_db
+    username: invoice_user
+    password: invoice-pwd
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      maximum-pool-size: 2
+  jpa:
+    hibernate:
+      ddl-auto: update
+      
+
+
