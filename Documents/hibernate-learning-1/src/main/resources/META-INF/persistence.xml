@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence              http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="hibernate_l" transaction-type="RESOURCE_LOCAL">
+    <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+    <class>db.abdulasif_b8_db.khatabook.KBK.KBKusers</class>
+    <class>db.abdulasif_b8_db.khatabook.KBK.KBKnewstock</class>
+    <class>db.abdulasif_b8_db.khatabook.KBK.KBKstock</class>
+    <class>db.abdulasif_b8_db.khatabook.KBK.KBKorder</class>
+    <class>db.abdulasif_b8_db.khatabook.KBK.KBKpayment</class>
+    <class>db.abdulasif_b8_db.khatabook.KBK.KBKitemlist</class>
+    <class>db.abdulasif_b8_db.khatabook.KBK.KBKcustomeraddress</class>
+    <class>db.abdulasif_b8_db.khatabook.KBK.KBKcustomer</class>
+    <class>db.abdulasif_b8_db.khatabook.KBK.KBKproduct</class>
+    <class>db.abdulasif_b8_db.khatabook.KBK.KBKdealer</class>
+    <class>db.abdulasif_b8_db.khatabook.KBK.KBKcategory</class>
+    <properties>
+      <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+      <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://bassure.in/abdulasif_b8_db"/>
+      <property name="jakarta.persistence.jdbc.user" value="abdulasif"/>
+      <property name="jakarta.persistence.jdbc.password" value="sibASdul@555"/>
+    </properties>
+  </persistence-unit>
+</persistence>
